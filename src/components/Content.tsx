@@ -1,3 +1,4 @@
+import { Header } from './Header';
 import { MovieCard } from './MovieCard';
 
 interface MovieProps {
@@ -25,9 +26,7 @@ interface ContentProps {
 export function Content({movies,selectedGenre}:ContentProps) {
   return (
     <div className="container">
-      <header>
-        <span className="category">Categoria:<span> {selectedGenre.title}</span></span>
-      </header>
+      <Header title={selectedGenre.title} />
       <main>
         <div className="movies-list">
           {movies.map(movie => (
