@@ -19,7 +19,7 @@ A proposta é criar componentes para acessar os dados da API e renderizar os fil
 ## 🏁 How to run the project
 #### Clone the repository
 ```bash
-git clone https://github.com/rafinhaa/ignite-desafio-02
+git clone https://github.com/rafinhaa/ignite-reactjs-desafio-02
 cd ignite-desafio-02
 ```
 
